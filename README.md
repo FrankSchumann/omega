@@ -1,5 +1,7 @@
 # omega
 
+[View!](https://pages.github.com/FrankSchumann/omega/)
+
 ## Install
 
 ```cmd
