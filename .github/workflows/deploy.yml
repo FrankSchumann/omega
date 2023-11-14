@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [ self-hosted ]
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install Poetry dependencies
+        run: poetry install
+
+      - name: Deploy to GitHub Pages
+        run: poetry run mkdocs gh-deploy
