@@ -1,6 +1,6 @@
 site_name: OMEGA
-site_url: https://pages.github.schneider-electric.com/MSol-NGM-HPC/hpc-handbook/
-repo_url: https://github.schneider-electric.com/MSol-NGM-HPC/hpc-handbook/
+site_url: https://pages.github.com/FrankSchumann/omega/
+repo_url: https://github.com/FrankSchumann/omega/
 copyright: Frank Schumann
 extra_css:
   - schneider.css
@@ -32,9 +32,5 @@ plugins:
   - search
 nav:
   - Home: 'index.md'
-  - Systemkontext:
-  - Bausteinsicht:
-  - Test1: 
-    - Overview: 'Onboarding/index.md'
-    - Useful Links: 'Onboarding/useful_links.md'
-    - Todo List for the new colleagues: 'Onboarding/todo_list_newcomers.md'
+  - Systemkontext: 'systemcontext.md'
+  - Bausteinsicht: 'componentsview.md'
