@@ -1,25 +1,33 @@
-site_name: OMEGA
+site_name: ΩMEGA
 site_url: https://FrankSchumann.github.io/omega/
 repo_url: https://github.com/FrankSchumann/omega/
 copyright: Frank Schumann
-extra_css:
-  - schneider.css
 theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.sections
+    - toc.integrate
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      primary: teal
+      accent: purple 
+    - scheme: slate 
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
 markdown_extensions:
   - admonition
   - attr_list
@@ -32,5 +40,5 @@ plugins:
   - search
 nav:
   - Home: 'index.md'
-  - Systemkontext: 'systemcontext.md'
-  - Bausteinsicht: 'componentsview.md'
+  - Systemkontext: 'systemkontext.md'
+  - Bausteinsicht: 'bausteinsicht.md'
