@@ -1,6 +1,6 @@
 # omega
 
-[View!]([(https://frankschumann.github.io/omega/)
+[View!](https://frankschumann.github.io/omega/)
 
 ## Install
 
